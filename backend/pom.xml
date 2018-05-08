@@ -6,10 +6,10 @@
     <artifactId>backend</artifactId>
 
     <name>backend</name>
-    <description>The ng2boot backend project</description>
+    <description>The spozz backend project</description>
 
     <parent>
-        <groupId>com.jdriven.ng2boot</groupId>
+        <groupId>de.dnlzhs.spozz</groupId>
         <artifactId>parent</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
@@ -27,7 +27,7 @@
         </dependency>
 
         <dependency>
-            <groupId>com.jdriven.ng2boot</groupId>
+            <groupId>de.dnlzhs.spozz</groupId>
             <artifactId>frontend</artifactId>
             <version>${project.version}</version>
             <scope>runtime</scope>

@@ -10,6 +10,7 @@ target/
 
 # dependencies
 /frontend/src/main/frontend/node_modules
+/frontend/src/main/frontend/node/node_modules
 
 IntelliJ IDEA ###
 .idea

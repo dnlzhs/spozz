@@ -1,6 +1,6 @@
 import { browser, element, by } from 'protractor';
 
-export class Ng2bootPage {
+export class SpozzPage {
   navigateTo() {
     return browser.get('/');
   }

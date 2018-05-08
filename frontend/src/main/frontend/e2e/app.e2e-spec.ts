@@ -1,10 +1,10 @@
-import { Ng2bootPage } from './app.po';
+import { SpozzPage } from './app.po';
 
-describe('ng2boot App', () => {
-  let page: Ng2bootPage;
+describe('spozz App', () => {
+  let page: SpozzPage;
 
   beforeEach(() => {
-    page = new Ng2bootPage();
+    page = new SpozzPage();
   });
 
   it('should display message saying app works', () => {
