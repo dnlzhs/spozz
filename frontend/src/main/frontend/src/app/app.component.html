@@ -1,9 +1,10 @@
 <h1>
   {{title}}
 
-  <ul>
-    <li> <a routerLink="nav"> Navigation </a> </li>
-  </ul>
 </h1>
 
-<app-nav></app-nav>
+<ul>
+  <li> <a [routerLink]="['nav']"> Navigation </a> </li>
+</ul>
+
+<!-- per klick auf navigation möchte ich eine Seite mit ausschließlich dem Inhalt von MenuComponent -->

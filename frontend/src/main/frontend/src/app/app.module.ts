@@ -1,22 +1,22 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { HttpModule } from '@angular/http';
-import { BrowserAnimationsModule} from "@angular/platform-browser/animations";
+import { BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { AppRoutingModule} from './app-routing.module';
+import { NavigationModule} from './navigation/navigation.module';
 
 import { AppComponent } from './app.component';
-import { NavComponent } from './nav/nav.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    NavComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    AppRoutingModule,
+    NavigationModule
   ],
   providers: [],
   bootstrap: [AppComponent]

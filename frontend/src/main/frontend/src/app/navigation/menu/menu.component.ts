@@ -2,9 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import { trigger,style,transition,animate,keyframes,query,stagger } from '@angular/animations';
 
 @Component({
-  selector: 'app-nav',
-  templateUrl: './nav.component.html',
-  styleUrls: ['./nav.component.css'],
+  selector: 'app-nav-menu',
+  templateUrl: './menu.component.html',
+  styleUrls: ['./menu.component.css'],
   animations: [
     trigger("goals", [
       transition('* => *', [
@@ -18,9 +18,10 @@ import { trigger,style,transition,animate,keyframes,query,stagger } from '@angul
         ]), {optional:true})
       ])
     ])
-]})
+  ]
+})
 
-export class NavComponent implements OnInit {
+export class MenuComponent implements OnInit {
 
   itemCount: number = 4;
   btnText: string = 'Add an Item';
